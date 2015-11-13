@@ -36,70 +36,71 @@ a:hover {
 
 .inner {
 	margin: 0 auto;
-	width: 93.75%;		/* 960px / 1024px */
+	width: 96%;
+	
 }
 
 img {
-	max-width: 100%;
+	max-width: 95%;
 }
 
 .div_nav {
-	float: left;
-	width: 31.875%;	
+	/* float: left; */ 
+	width: 90%;
+	margin: auto;
+	text-align:center;
 }
 
-#logo {
-	width:60%;
+#logo{
+	width:50%;
 	margin:auto;
 	text-align:center;
 }
 
 
-h1 a {
-	padding-top: 117px;
-	height: 162px;
-	display: block;
-	text-align: center;
-}
-
-.intro,  .main,  .footer {
-	float: right;
-	width: 65%;
+.intro,  
+.main,  
+.footer {
+	/* float: right; */
+	margin: auto;
+	width: 80%;
 }
 
 .intro {
-	margin-top: 117px;
+	margin-top: 100px;
 }
 
 .intro div{
-	line-height: 1.4;
+	line-height: 1.3;
 } 
 
 ul.nav {
 	border-top: 1px solid #888583;
-	margin: 2em auto 0;
-	width: 64.379%;
+	margin: 1em auto 0;
+	width: 100%;
+}
+
+ul.nav li{
+	float:left;
+	width:25%;
+	margin:auto;
 }
 
 ul.nav a{
 	background: url("../images/ornament.png") no-repeat 0 100%;
-	font: bold 14px/1.2 "Book Antiqua", "Palatino Linotype", Georgia, serif;
+	font: bold 8px "Book Antiqua", "Palatino Linotype", Georgia, serif;
 	display: block;
 	text-align: center;
 	letter-spacing: 0.1em;
 	padding: 1em 0.5em 3em;
 	margin-bottom: -1em;
-	text-transform: uppercase;
 }
 
 ul.nav a:hover {
 	background-position: 50% 100%;
 }
 
-li.first a {
-	border-top: 1px solid #FFF9EF;
-	padding-top: 1.25em;
-}
+
 
 ul.nav i {
 	font: normal 10px Baskerville, Garamond, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", serif;
@@ -110,7 +111,6 @@ ul.nav i {
 .intro h2 {
 	text-align: center;
 	margin-bottom: 0.25em;
-	font-size : 1.2em;
 }
 
 .main h2 {
@@ -120,14 +120,14 @@ ul.nav i {
 }
 
 .main ol li{
-	float: left;
+	/*float: left;*/
 	font-size: 10px;
 	letter-spacing: 0.05em;
 	line-height: 1.1;
-	margin: 0 2% 1.5em 0;
+	margin: 0 1.5em;
 	text-align: center;
 	text-transform: uppercase;
-	width: 31.12%;
+	width: 90%;
 }
 
 .main ol li b{
